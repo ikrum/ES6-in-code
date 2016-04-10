@@ -25,12 +25,25 @@
  *
  * A variable defined using a var statement is known throughout the function it is defined in
  * A variable defined using a let statement is only known in the block it is defined in
- * let variables are not Hoisting
-
 
  @Reference			http://stackoverflow.com/questions/762011/let-keyword-vs-var-keyword
  */
 
+function loop(arr) {
+    // i IS NOT known here
+    // j IS NOT known here
 
+    for( var i = 0; i < arr.length; i++ ) {
+        // i IS known here
+    };
 
- // let is only visible in the for() loop and var is visible to the whole function.
+    // i IS known here
+    // j IS NOT known here
+
+    for( let j = 0; j < arr.length; j++ ) {
+        // j IS known here
+    };
+
+    // i IS known here
+    // j IS NOT known here
+}
