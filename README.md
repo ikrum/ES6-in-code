@@ -33,3 +33,6 @@ REST PARAMETERS
 ## Symbols
 
 ## Transpilation
+
+# Note
+Before using ES6 features please check [ECMAScript 6 compatibility table](https://kangax.github.io/compat-table/es6/)
