@@ -2,10 +2,10 @@
 ECMAScript 6 features explained with code.
 
 
-## Variables
+#### Variables
+* [let](js/variable-es6.js)
+* [const](js/variable-es6.js)
 
-#### LET
-CONST
 
 
 ## Strings
