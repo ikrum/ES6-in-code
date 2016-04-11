@@ -78,8 +78,8 @@ loop( [1,2,3] );
 
 (function(){
 	// Declare constants in Uppercase
-	const MY_CONSTANT = 10;
-	MY_CONSTANT = 20; // Error, can't override the value
+	const MAX_SIZE = 10;
+	MAX_SIZE = 20; // Error, can't override the value
 
 
 	// const requires an initializer
@@ -87,10 +87,10 @@ loop( [1,2,3] );
 
 
 	// you can change object properties
-	const MY_OBJECT = {
-		BAR: 1
+	const CONFIG = {
+		CLUSTER_SIZE: 4
 	}	
-	MY_OBJECT = 12;; // ERROR
-	MY_OBJECT.BAR = 12; // NO ERROR
-	console.log(MY_OBJECT);  // Object {BAR: 12}
+	CONFIG = 8;; // ERROR
+	CONFIG.CLUSTER_SIZE = 8; // NO ERROR
+	console.log(CONFIG);  // Object {CLUSTER_SIZE: 8}
 })();
