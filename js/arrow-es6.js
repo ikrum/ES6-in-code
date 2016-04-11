@@ -64,19 +64,8 @@ var myFunction = function() {
 
 
 // annonymous functions
-var x_es6 =  ((()=>55))() ; // x_es6 = 55;
+var x_es6 = ()=>55() ; // x_es6 = 55;
 var x_es5 = (function(){return 55})(); // x_es5 = 55;
 
 var y_es6 = (x=>x*2)(10); // y_es6 = 20;
 var y_es5 = (function(x){return x*2})(10); // y_es5 = 20;
-
-
-
-
-
-
-
-
-
-
-
