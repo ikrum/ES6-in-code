@@ -1,4 +1,4 @@
-# Learning-ES6
+# ES6-in-code
 ECMAScript 6 features explained with code.
 
 

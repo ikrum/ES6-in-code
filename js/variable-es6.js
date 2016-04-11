@@ -24,6 +24,9 @@
 	}
 
 	console.log("i is "+typeof i); // undefined
+
+	let foo = 10;
+	var foo = 1; // can't redecalre let variables in the same scope
 })([1,2,3]);
 
 
