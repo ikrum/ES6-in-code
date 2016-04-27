@@ -1,6 +1,6 @@
 /**
  *
- * ES6 has introduced two new keyword 'let' and 'const' for decalaring variables
+ * ES6 has introduced two new keyword 'let' and 'const' for declaring variables
  * So basically 'let' and 'const' are new alternative of 'var' for declaring variables
  */
 
@@ -26,7 +26,7 @@
 	console.log("i is "+typeof i); // undefined
 
 	let foo = 10;
-	var foo = 1; // can't redecalre let variables in the same scope
+	var foo = 1; // can't redeclare let variables in the same scope
 })([1,2,3]);
 
 

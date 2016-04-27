@@ -31,8 +31,8 @@
 /*
  * Difference between for...of and for...in
  *
- * for..of takes the value from the iteretor and for..in takes the index
- * When you need only the item for the iterator you can use for..of lopp
+ * for..of takes the value from the iterator and for..in takes the index
+ * When you need only the item for the iterator you can use for..of loop
  * If index or key is required then you could use regular for loop or for..in loop
  */
 

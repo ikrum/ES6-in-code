@@ -35,7 +35,7 @@ class Polygon {
 
 /**
  *
- * Above example can be acieved by the following function
+ * Above example can be achieved by the following function
  */
 function PolygonFunc(width, height) {
   this._width = width;
@@ -110,11 +110,11 @@ class Car {
   }
 }
 
-var car = new Car("Jhon");
-console.log(car.owner); // Jhon
+var car = new Car("John");
+console.log(car.owner); // John
 
 console.log(car.destination); // empty string
-car.destination = "Town Hall"; // setting the desination 
+car.destination = "Town Hall"; // setting the destination 
 console.log(car.destination); // TownHall
 
 console.log(car.distance); // 0

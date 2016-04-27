@@ -10,7 +10,7 @@
  * 
  * CommonJS
  * CommonJS is a non-browser JavaScript specification for creating modules.
- * CommonJS is not available for browser JavaScript. Its mostly used in NodeJS.
+ * CommonJS is not available for browser JavaScript. It's mostly used in NodeJS.
  * Now CommonJS features has been introduced in the new javascript(ES6)
  *
  *
@@ -78,7 +78,7 @@ console.log(iMath.THE_ANSWER);
  *
  * No matter what kind of declaration is being exported from a module, 
  * imported variables are always read-only.
- * You can, however, change an imported object’s properties.
+ * You can, however, change an imported object's properties.
  */
 
 
@@ -97,7 +97,7 @@ count++; // read-only error
 /*
  * A bigger example
  *
- * Consider the following folder stucture for your projects
+ * Consider the following folder structure for your projects
 
 	Project:
 		controllers/

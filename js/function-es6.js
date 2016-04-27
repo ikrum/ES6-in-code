@@ -1,6 +1,6 @@
 /**
  *
- * ES6 provieds a new syntax to initialize parameters if they were not explicitly supplied
+ * ES6 provides a new syntax to initialize parameters if they were not explicitly supplied
  *
  *
  * References
@@ -31,10 +31,10 @@ multiply(5);
  * In ES6 you can define default values to function parameters
  */
 
-function devide(a,b=1){
+function divide(a,b=1){
 	console.log( a/b ); // 5
 }
-devide(5);
+divide(5);
 
 
 

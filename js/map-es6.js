@@ -50,12 +50,12 @@ for(let item of map){
 
 
 /*
- * Diffecence between Map and array
+ * Difference between Map and array
  *
- * One of the important differences is also that you’re able to use anything for the keys. 
- * You’re not just limited to primitive values like symbols, numbers, or strings,
+ * One of the important differences is also that you're able to use anything for the keys. 
+ * You're not just limited to primitive values like symbols, numbers, or strings,
  * but you can even use functions, objects and dates – too. 
- * Keys won’t be casted to strings like with regular objects, either.
+ * Keys won't be casted to strings like with regular objects, either.
  */
 
 var myMap = new Map()

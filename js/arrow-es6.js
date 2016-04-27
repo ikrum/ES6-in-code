@@ -27,7 +27,7 @@ var emptyFunction = function(){}; // equivalent regular function
 
 
 //Parentheses are optional for one parameter
-var value = x => x; // arrow function withou parentheses
+var value = x => x; // arrow function without parentheses
 var value = function(x){return x}; // regular function
 value(10); // 10
 
@@ -63,7 +63,7 @@ var myFunction = function() {
 };
 
 
-// annonymous functions
+// anonymous functions
 var x_es6 = ()=>55() ; // x_es6 = 55;
 var x_es5 = (function(){return 55})(); // x_es5 = 55;
 
