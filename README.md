@@ -1,7 +1,10 @@
 # ES6-in-code
 ECMAScript 6 features explained with code.
 
+## Contribution
+Let's add some cool example and mark your contribution here.
 
+## Code
 * [Variable](js/variable-es6.js)
 * [Loop](js/loop-es6.js)
 * [Function](js/function-es6.js)
