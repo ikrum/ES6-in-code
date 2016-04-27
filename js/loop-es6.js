@@ -1,3 +1,8 @@
+/*
+ * for...of Loop
+ * for(value of array){ }
+ */
+
 
 //Iterating over an Array
 (function(){
